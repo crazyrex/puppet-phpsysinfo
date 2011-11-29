@@ -102,6 +102,12 @@ class phpsysinfo::config {
 			mode    => "0644",
 			ensure  => file,
 			content => template("phpsysinfo/config.php.erb");
+			
+	  "/var/log/apache2/":
+	    owner   => "root",
+			group   => "adm",
+			mode    => "0750",
+			ensure  => directory;
   }
   
   if $phpsysinfo::phpsysinfo_path == "/var/www/" {

@@ -1,1 +1,14 @@
 -- to do --
+
+Supported Operating Systems
+
+Distributor ID:	Ubuntu
+Description:	Ubuntu 10.04.3 LTS
+Release:	10.04
+Codename:	lucid
+
+Distributor ID:	Debian
+Description:	Debian GNU/Linux 6.0.3 (squeeze)
+Release:	6.0.3
+Codename:	squeeze
+
