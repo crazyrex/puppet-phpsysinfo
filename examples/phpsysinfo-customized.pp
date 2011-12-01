@@ -57,5 +57,5 @@ node your_server_hostname {
   }
 
   # Modules
-  include base, phpsysinfo
+  include phpsysinfo
 }
