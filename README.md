@@ -2,7 +2,7 @@ puppet-phpsysinfo
 -----------------
 
 This module is installing the PHP software [PhpSysInfo](http://phpsysinfo.sourceforge.net/ "phpsysinfo").
-This is a /proc reader and display the information to a web page.
+This is a /proc reader and it displays the information to a web page.
 It allows you to get the state of your server very quickly.
 
 Installation

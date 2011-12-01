@@ -1,79 +1,41 @@
-Signup and PricingExplore GitHubFeaturesBlogLogin
-drivard / puppet-phpsysinfo
-
-Watch
- 
-Fork
- 1  1
-Code
-Network
-Pull Requests 0
-Issues 0
-Wiki 1
-Stats & Graphs
-Current branch: 
-master
-Files Commits Branches 1 Tags  Downloads
-Latest commit to the master branch
-Modified README
-commit f946d1629c
- drivard authored just now
-puppet-phpsysinfo / README.md  
-Edit this file
-100644 42 lines (27 sloc) 1.287 kb rawblamehistory
 puppet-phpsysinfo
+-----------------
 
-This module is installing the PHP software PhpSysInfo. This is a /proc reader and display the information to a web page. It allows you to get the state of your server very quickly.
+This module is installing the PHP software [PhpSysInfo](http://phpsysinfo.sourceforge.net/ "phpsysinfo").
+This is a /proc reader and it displays the information to a web page.
+It allows you to get the state of your server very quickly.
 
 Installation
+------------
 
-Login to your puppetmaster server
-Clone the repository:
+* Login to your puppetmaster server
+* Clone the repository:
 
-git clone https://github.com/drivard/puppet-phpsysinfo.git
-Move the cloned repository to the puppet module folder under the name of phpsysinfo
+        git clone https://github.com/drivard/puppet-phpsysinfo.git
 
-mv puppet-phpsysinfo /etc/puppet/modules/phpsysinfo
-Add the phpsysinfo module to your puppet node, for node definition look in the examples folder for the file phpsysinfo. (Do not name your node file phpsysinfo it will mix the node and the module.)
+* Move the cloned repository to the puppet module folder under the name of phpsysinfo
+  
+        mv puppet-phpsysinfo /etc/puppet/modules/phpsysinfo
+  
+* Add the phpsysinfo module to your puppet node, for node definition look in the examples folder for the file phpsysinfo.
+(Do not name your node file phpsysinfo it will mix the node and the module.)
 
 Supported Operating Systems
+---------------------------
 
-Ubuntu 10.04, 10.10, 11.04
-Debian 6.0 squeeze
-OpenVZ consideration
+* Ubuntu 10.04, 10.10, 11.04
+* Debian 6.0 squeeze
 
-If you install Ubuntu template and think about customizing the updatenotifier parameter to true, it will return and error message. This error message is:
+## OpenVZ consideration
+If you install Ubuntu template and think about customizing
+the updatenotifier parameter to true, it will return and error
+message. This error message is:
 
-**missing file "/var/lib/update-notifier/updates-available"
+__missing file "/var/lib/update-notifier/updates-available"__
 
 This is due to the template being a minimal installatiion of Ubuntu.
 
 To do
+-----
 
 Make this puppet profile working under Fedora, CentOS. (work in progress)
-
-GitHub Links
-GitHub
-About
-Blog
-Features
-Contact & Support
-Training
-Site Status
-Tools
-GitHub for Mac
-Issues for iPhone
-Gist: Code Snippets
-GitHub Enterprise
-Job Board
-Extras
-GitHub Shop
-The Octodex
-Documentation
-GitHub Help
-Developer API
-GitHub Flavored Markdown
-GitHub Pages
-Terms of ServicePrivacySecurity© 2011 GitHub Inc. All rights reserved.Powered by the Dedicated Servers and
-Cloud Computing of Rackspace Hosting®
- Something went wrong with that request. Please try again. Dismiss
