@@ -31,7 +31,7 @@ If you install Ubuntu template and think about customizing
 the updatenotifier parameter to true, it will return and error
 message. This error message is:
 
-**missing file __"/var/lib/update-notifier/updates-available"__
+__missing file "/var/lib/update-notifier/updates-available"__
 
 This is due to the template being a minimal installatiion of Ubuntu.
 
