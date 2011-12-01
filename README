@@ -11,11 +11,11 @@ Installation
 * Login to your puppetmaster server
 * Clone the repository:
 
-    git clone https://github.com/drivard/puppet-phpsysinfo.git
+        git clone https://github.com/drivard/puppet-phpsysinfo.git
 
 * Move the cloned repository to the puppet module folder under the name of phpsysinfo
   
-    mv puppet-phpsysinfo /etc/puppet/modules/phpsysinfo
+        mv puppet-phpsysinfo /etc/puppet/modules/phpsysinfo
   
 * Add the phpsysinfo module to your puppet node, for node definition look in the examples folder for the file phpsysinfo.
 (Do not name your node file phpsysinfo it will mix the node and the module.)
