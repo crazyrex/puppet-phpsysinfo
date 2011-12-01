@@ -17,7 +17,7 @@ Installation
   
         mv puppet-phpsysinfo /etc/puppet/modules/phpsysinfo
   
-* Add the phpsysinfo module to your puppet node, for node definition look in the examples folder for the file phpsysinfo.
+* Add the phpsysinfo module to your puppet node, for node definition look in the examples folder for the file phpsysinfo.pp.
 (Do not name your node file phpsysinfo it will mix the node and the module.)
 
 Supported Operating Systems
